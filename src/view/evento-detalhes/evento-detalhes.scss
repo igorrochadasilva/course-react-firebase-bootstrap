@@ -1,0 +1,32 @@
+.evento-detalhes{
+    .img-banner{
+        width: 100%;
+        max-height: 350px;
+        min-height: 300px;
+    }
+
+    .box-info{
+        background-color: #614ea6;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .btn-editar i{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        color: #f21667;
+        transition: .3s ease-in;
+
+        &:hover{
+            color: #614ea6;
+        }
+    }
+
+    .titulo, .visualizacoes{
+        color: #614ea6;
+        text-transform: uppercase;
+    }
+}
